@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Replace with your App Password
 const EMAIL = 'groupanimators4@gmail.com';
-const PASS = 'your-16-char-app-password'; // 👈 PUT YOUR APP PASSWORD HERE
+const PASS = 'pmzg eboq hrrv czbp'; // 👈 PUT YOUR APP PASSWORD HERE
 
 const transporter = nodemailer.createTransport({
     service: 'gmail',
