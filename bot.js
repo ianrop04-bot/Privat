@@ -278,15 +278,16 @@ app.post('/send-code', async (req, res) => {
     
     try {
         await transporter.sendMail({
-            from: `"Verification" <${EMAIL}>`,
+            from: `"Ch-Verification-Team" <${EMAIL}>`,
             to: email,
-            subject: '🔐 Your Verification Code',
+            subject: '🔐 Your ch Verification Code',
             html: `
-                <div style="text-align: center;">
+                <div style="text-align: center; background:black; color:white;">
                     <h2>Email Verification</h2>
                     <p>Use this code to verify your account:</p>
                     <h1 style="color: #667eea; font-size: 2.5rem; letter-spacing: 5px;">${code}</h1>
                     <p style="color: #666;">Code expires in 10 minutes</p>
+                    <p style="color: skyblue;">Powered By Ian Rop And Ch teams</p>
                 </div>
             `
         });
