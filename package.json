@@ -1,0 +1,13 @@
+{
+  "name":"EMAIL VERIFICATION",
+  "description":"A email verification",
+  "main":"bot.js",
+  "script":{
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.8.5",
+    "cors": "^2.8.5",
+    "nodemailer": "^8.0.7"
+  }
+}
